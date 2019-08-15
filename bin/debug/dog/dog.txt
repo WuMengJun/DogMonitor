@@ -1,0 +1,4 @@
+hModule = ::LoadLibraryA("UsbdogDll.dll");
+    //调用GetUsbDog
+    getUsbdog = (PGetUsbdog)::GetProcAddress(hModule,"GetUsbdog");
+    dogname = getUsbd
